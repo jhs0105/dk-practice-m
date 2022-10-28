@@ -135,6 +135,7 @@
 }
 #project .banner {
   width: 100%;
+  overflow: hidden;
 }
 #project .banner ul li {
   width: 100%;
@@ -381,6 +382,7 @@
 }
 #pr .pr-banner li {
   width: 100%;
+  height: 100%;
   overflow: hidden;
 }
 #pr .pr-banner li iframe {
