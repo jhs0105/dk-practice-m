@@ -790,6 +790,11 @@
       depth01.removeClass("on");
     });
 
+    $(window).on("scroll", function () {
+      gnb.removeClass("on");
+      btnAll.removeClass("on");
+    });
+
     const depth01 = $("#gnb .depth01");
     const depth02 = $("#gnb .depth02");
 
